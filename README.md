@@ -1,6 +1,6 @@
 # SMTransliterator
 
-Unicode transliteration utilities: remove diacritics, normalize, etc.
+Unicode transliteration utilities for Node.js: remove diacritics, normalize, etc.
 
 This code is licensed under the terms of the MIT license (see LICENSE.md).
 
