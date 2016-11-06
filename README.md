@@ -32,7 +32,7 @@ This method removes all diacritics from latin characters in the `str` parameter.
 
 Additionally, the resulting Unicode string is canonicalized in the NFC form.
 
-When `full` is true (default is false), it also removes punctuation characters and those in the "Other" Unicode plane (which includes control characters, unassigned ones, etc) .
+When `full` is true (default is false), it also removes punctuation characters and those in the "Other" Unicode plane (which includes control characters, unassigned ones, etc).
 
 ### SMTransliterator.Normalize
 
