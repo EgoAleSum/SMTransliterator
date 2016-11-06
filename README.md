@@ -2,7 +2,7 @@
 
 Unicode transliteration utilities for Node.js: remove diacritics, normalize, etc.
 
-This code is licensed under the terms of the MIT license (see LICENSE.md).
+This code is licensed under the terms of the BSD (2-clause) license (see LICENSE.md).
 
 ## Add to your project
 
