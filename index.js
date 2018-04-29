@@ -1,6 +1,5 @@
 'use strict';
 
-const unorm = require('unorm')
 const XRegExp = require('xregexp')
 
 /**
@@ -17,7 +16,7 @@ const SMTransliterator = {
      */
     Transliterate: (str, full) => {
         // 1. Decompose Unicode sequences
-        str = unorm.nfd(str)
+        str = str.normalize('NFD')
         
         if(full) {
             // 2a. Remove all sequences that are part of the "Nonspacing", "Punctuation" and "Other" planes 
@@ -29,7 +28,7 @@ const SMTransliterator = {
         }
         
         // 3. Compose the Unicode sequences again
-        str = unorm.nfc(str)
+        str = str.normalize('NFC')
         return str
     },
     

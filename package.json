@@ -28,11 +28,10 @@
   },
   "homepage": "https://github.com/EgoAleSum/SMTransliterator#readme",
   "dependencies": {
-    "unorm": "1.4.x",
-    "xregexp": "4.0.x"
+    "xregexp": "^4.1.1"
   },
   "devDependencies": {
-    "mocha": "4.1.x",
-    "should": "13.2.x"
+    "mocha": "^5.1.1",
+    "should": "^13.2.1"
   }
 }
