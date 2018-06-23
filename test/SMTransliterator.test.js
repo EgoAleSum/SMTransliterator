@@ -1,6 +1,8 @@
+/*eslint-env mocha */
+
 'use strict'
 
-const should = require('should')
+require('should')
 const SMTransliterator = require('../index')
 
 describe('SMTransliterator.js', () => {
