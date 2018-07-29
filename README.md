@@ -1,11 +1,11 @@
 # SMTransliterator
 
-[![Dependency Status](https://david-dm.org/EgoAleSum/SMTransliterator.svg?style=flat)](https://david-dm.org/EgoAleSum/SMTransliterator)
-[![devDependency Status](https://david-dm.org/EgoAleSum/SMTransliterator/dev-status.svg?style=flat)](https://david-dm.org/EgoAleSum/SMTransliterator#info=devDependencies)
+[![Dependency Status](https://david-dm.org/ItalyPaleAle/SMTransliterator.svg?style=flat)](https://david-dm.org/ItalyPaleAle/SMTransliterator)
+[![devDependency Status](https://david-dm.org/ItalyPaleAle/SMTransliterator/dev-status.svg?style=flat)](https://david-dm.org/ItalyPaleAle/SMTransliterator#info=devDependencies)
 
 Unicode transliteration utilities for Node.js: remove diacritics, normalize, etc.
 
-This code is licensed under the terms of the BSD (2-clause) license (see LICENSE.md).
+This code is licensed under the terms of the MIT license (see LICENSE.md).
 
 ## Add to your project
 

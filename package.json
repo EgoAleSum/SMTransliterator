@@ -1,6 +1,6 @@
 {
   "name": "smtransliterator",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Unicode transliteration utilities: remove diacritics, normalize, etc",
   "main": "index.js",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EgoAleSum/SMTransliterator.git"
+    "url": "git+https://github.com/ItalyPaleAle/SMTransliterator.git"
   },
   "keywords": [
     "unicode",
@@ -24,20 +24,20 @@
     "string"
   ],
   "author": "Alessandro Segala, SixthMonkey, Zap In",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EgoAleSum/SMTransliterator/issues"
+    "url": "https://github.com/ItalyPaleAle/SMTransliterator/issues"
   },
-  "homepage": "https://github.com/EgoAleSum/SMTransliterator#readme",
+  "homepage": "https://github.com/ItalyPaleAle/SMTransliterator",
   "dependencies": {
     "xregexp": "^4.2.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.1",
-    "eslint": "^5.0.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.2.0",
     "istanbul": "^0.4.5",
     "jsdoc": "^3.5.5",
     "mocha": "^5.2.0",
-    "should": "^13.2.1"
+    "should": "^13.2.2"
   }
 }
