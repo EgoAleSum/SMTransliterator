@@ -5,7 +5,13 @@
 
 Unicode transliteration utilities for Node.js: remove diacritics, normalize, etc.
 
+This module is written in TypeScript and transpiled to JavaScript. All typings are available alongside the code.
+
 This code is licensed under the terms of the MIT license (see LICENSE.md).
+
+## Full documentation
+
+Full documentation is available on [GitHub pages](https://italypaleale.github.io/SMTransliterator/).
 
 ## Add to your project
 
