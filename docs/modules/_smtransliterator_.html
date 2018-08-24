@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SMTransliterator</title>
+	<title>&quot;SMTransliterator&quot; | SMTransliterator</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="../assets/css/main.css">
 </head>
 <body>
 <header>
 	<div class="tsd-page-toolbar">
 		<div class="container">
 			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
 					<div class="field">
 						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
 						<input id="tsd-search-field" type="text" />
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="index.html" class="title">SMTransliterator</a>
+					<a href="../index.html" class="title">SMTransliterator</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -53,47 +53,41 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="globals.html">Globals</a>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="_smtransliterator_.html">&quot;SMTransliterator&quot;</a>
 				</li>
 			</ul>
-			<h1> SMTransliterator</h1>
+			<h1>External module &quot;SMTransliterator&quot;</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<div class="tsd-panel tsd-typography">
-				<h1 id="smtransliterator">SMTransliterator</h1>
-				<p><a href="https://david-dm.org/ItalyPaleAle/SMTransliterator"><img src="https://david-dm.org/ItalyPaleAle/SMTransliterator.svg?style=flat" alt="Dependency Status"></a>
-				<a href="https://david-dm.org/ItalyPaleAle/SMTransliterator#info=devDependencies"><img src="https://david-dm.org/ItalyPaleAle/SMTransliterator/dev-status.svg?style=flat" alt="devDependency Status"></a></p>
-				<p>Unicode transliteration utilities for Node.js: remove diacritics, normalize, etc.</p>
-				<p>This code is licensed under the terms of the MIT license (see LICENSE.md).</p>
-				<h2 id="add-to-your-project">Add to your project</h2>
-				<p>Install from NPM:</p>
-				<pre><code class="language-sh">npm install --save smtransliterator</code></pre>
-				<h2 id="api-guide">API Guide</h2>
-				<p>Include the module with:</p>
-				<pre><code class="language-js"><span class="hljs-keyword">const</span> SMTransliterator = <span class="hljs-built_in">require</span>(<span class="hljs-string">'smtransliterator'</span>)</code></pre>
-				<p>The module exports the following methods:</p>
-				<h3 id="smtransliterator-transliterate">SMTransliterator.Transliterate</h3>
-				<pre><code class="language-js">SMTransliterator.Transliterate(str, full)</code></pre>
-				<p>This method removes all diacritics from latin characters in the <code>str</code> parameter. For example, the string <em>papà</em> (Italian for &quot;dad&quot;) is converted to <em>papa</em>, or the famous DJ Tiësto has the umlaut removed from his name (to &quot;Tiesto&quot;). Case is always preserved, and the method is safe to use with strings containing non-latin characters too. </p>
-				<p>Additionally, the resulting Unicode string is canonicalized in the NFC form.</p>
-				<p>When <code>full</code> is true (default is false), it also removes punctuation characters and those in the &quot;Other&quot; Unicode plane (which includes control characters, unassigned ones, etc).</p>
-				<h3 id="smtransliterator-normalize">SMTransliterator.Normalize</h3>
-				<pre><code class="language-js">SMTransliterator.Normalize(str, full)</code></pre>
-				<p>Short-hand method that calls the <code>SMTransliterator.Transliterate</code> method, and additionally lowercases the resulting string. Parameters are the same as in the <code>Transliterate</code> method.</p>
-			</div>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Modules</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-module tsd-parent-kind-external-module"><a href="_smtransliterator_.smtransliterator.html" class="tsd-kind-icon">SMTransliterator</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 			<nav class="tsd-navigation primary">
 				<ul>
 					<li class="globals  ">
-						<a href="globals.html"><em>Globals</em></a>
+						<a href="../globals.html"><em>Globals</em></a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_smtransliterator_.html">"SMTransliterator"</a>
+					<li class="current tsd-kind-external-module">
+						<a href="_smtransliterator_.html">"SMTransliterator"</a>
 					</li>
 				</ul>
 			</nav>
@@ -167,7 +161,7 @@
 	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
-<script src="assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>

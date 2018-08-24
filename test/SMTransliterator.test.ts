@@ -1,9 +1,7 @@
-/*eslint-env mocha */
+import 'mocha'
+import 'should'
 
-'use strict'
-
-require('should')
-const SMTransliterator = require('../index')
+import SMTransliterator from '../src/SMTransliterator'
 
 describe('SMTransliterator.js', () => {
 
