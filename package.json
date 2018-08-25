@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "Unicode transliteration utilities: remove diacritics, normalize, etc",
   "main": "dist/SMTransliterator.js",
-  "types": "dist/SMTransliterator.d.js",
+  "types": "dist/SMTransliterator.d.ts",
   "directories": {
     "test": "test"
   },
