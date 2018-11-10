@@ -1,3 +1,5 @@
+# THIS REPOSITORY HAS BEEN ARCHIVED. PLEASE USE [SMNormalize](https://github.com/ItalyPaleAle/SMNormalize) INSTEAD
+
 # SMTransliterator
 
 [![Dependency Status](https://david-dm.org/ItalyPaleAle/SMTransliterator.svg?style=flat)](https://david-dm.org/ItalyPaleAle/SMTransliterator)
